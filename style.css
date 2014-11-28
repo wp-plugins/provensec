@@ -1,0 +1,198 @@
+label.provensec_label {
+	display:block;
+	margin:5px 0px;
+	text-indent:5px;
+	font-size:17px;
+	max-width:100%;
+	line-height:normal;
+	margin-top:20px;
+}
+span.helptext {
+	font-size: 12px;
+	font-style: italic;
+	margin-left: 5px;
+}
+input.prov_textbox {
+	display:inline-block;
+	padding:10px 5px;
+	border: 2px solid #dadada;
+	border-radius: 7px;
+	width:100%;
+	text-indent:5px;
+}
+input.prov_textbox:focus {
+	outline: none;
+	border-color: #9ecaed;
+	box-shadow: 0 0 10px #9ecaed;
+}
+label.error {
+	display:inline !important;
+	max-width:none;
+	color:#F00;
+	font-size:14px;
+	font-style:italic;
+	margin-left:10px;
+}
+input.error {
+	border:solid 2px #F00 !important;
+}
+#provensec_savesetting {
+	margin-top:10px;
+}
+.btn {
+	-moz-box-shadow:inset 0px -3px 7px 0px #29bbff;
+	-webkit-box-shadow:inset 0px -3px 7px 0px #29bbff;
+	box-shadow:inset 0px -3px 7px 0px #29bbff;
+	background-color:#2dabf9;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+	border:1px solid #0b0e07;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff !important;
+	font-family:arial;
+	font-size:15px !important;
+	padding:9px 23px !important;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #263666;
+}
+.btn-small {
+	padding:5px;
+}
+.btn:hover {
+	background-color:#0688fa;
+}
+#logo_img {
+	height:auto;
+	width:auto;
+	max-width:300px;
+	height:100px;
+	border:solid 2px #ccc;
+}
+.hide {
+	display:none;
+}
+.clear {
+	clear:both;
+	overflow:hidden;
+}
+.provensec_select {
+	width:130px;
+	overflow: hidden;
+	border: 1px solid #DDDDDD;
+	border-radius:2px;
+	height:26px;
+}
+.provensec_select select {
+	width: 100%;
+	border: 0;
+	line-height: 1.5;
+	text-indent: 0.01px;
+	height:26px;
+}
+.total_payment_lbl {
+	background-color: #F2F2F2;
+	width: auto;
+	border: solid 2px #BBBBBB;
+	overflow: hidden;
+	display: inline-block;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	padding:7px;
+	margin-top:15px;
+	margin-bottom:20px;
+	clear:both;
+}
+#provensec_total_payment {
+	width: 60px;
+	padding: 0px;
+	margin: 0px;
+	background-color:transparent;
+	border:none;
+	text-align:center;
+	margin-left: 10px;
+	font-weight:bold;
+}
+form#provensec_setting {
+	float:left;
+	width:40%;
+	margin-right:5%;
+}
+.right_block {
+	float: left;
+	width: 40%;
+	font-size:16px;
+	background-color: #fff;
+	padding: 10px;
+	margin-top:45px;
+}
+.notice_error {
+	background-color:#E50000;
+	color:#fff;
+	font-size:14px;
+	padding:5px 10px;
+	margin-bottom:5px;
+}
+.notice_success {
+	background-color:#00B200;
+	color:#fff;
+	font-size:14px;
+	padding:5px 10px;
+	margin-bottom:5px;
+	
+}
+#frm_provensec_signup {
+	max-width:500px;
+}
+ul.error_notice_area {
+	color: #D63301;
+	background-color: #FFCCBA;
+	margin:0px;
+	padding:10px;
+	padding-left:30px;
+}
+#provensec_loader {
+	width:auto;
+	display:inline-block;
+	margin-bottom: 26px;
+	margin-right:20px;
+}
+
+#frm_provensec_signup .one_half
+{
+	width:47%;
+	margin-right:3%;
+	float:left;	
+}
+
+#provensec_country
+{
+	 width:300px !important;
+	 padding:5px;	
+}
+
+img#reload
+{
+	cursor:pointer;	
+}
+
+#provensec_submit
+{
+	
+}
+
+.req_aterick
+{
+	color:#F00;
+	font-weight:bold;
+	letter-spacing:1px;
+	margin-left:5px;
+	font-size:12px;
+}
+
+.notice_loader
+{
+	text-align:left;	
+}
