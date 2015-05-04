@@ -4,7 +4,7 @@ Plugin Name: Provensec
 Plugin URI: http://provensec.com/
 Description: It's used to provide sign up form to get registered via API for Scanning services, provensec.com provide dashboard to registered used to add there asset and finding found for assets.
 Author: provensec
-Version: 1.0
+Version: 1.0.1
 Author URI: http://provensec.com/
 */
 defined('ABSPATH') or die("Direct access not allowed");
@@ -13,7 +13,7 @@ define('PROVENSEC_PAYPAL_LIVE','https://www.paypal.com/cgi-bin/webscr?');
 define('PROVENSEC_PAYPAL_SANDBOX','https://www.sandbox.paypal.com/cgi-bin/webscr?');
 define('ENABLE_SANDBOX',false);
 define('ADMIN_EMAIL',get_bloginfo('admin_email'));
-define('PROVENSEC_SERVICES','http://amazon.provensec.com/servers/');
+define('PROVENSEC_SERVICES','http://cloudprox.provensec.com/servers/');
 
 /*Register activation Hook start*/
 function provensec_activate() {

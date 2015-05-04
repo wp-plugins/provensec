@@ -3,7 +3,7 @@ Contributors: provensec
 Tags: provensec, provensec registration, provensec api , api registration
 Requires at least: 3.0.1
 Tested up to: 4.0
-Stable tag: provensec, provensec registration, provensec api , api registration
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -47,3 +47,8 @@ Now you are ready to use provensec signup service. You can view all registered u
 
 = 1.0.0 =
 * It is beta version
+
+== Changelog ==
+
+= 1.0.1 =
+* Small bug fixes
